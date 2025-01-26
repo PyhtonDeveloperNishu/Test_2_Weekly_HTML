@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="firstname">Firstname:</label>
+            <input type="text" id="firstname" value="" placeholder="Enter First Name"  size="15" required>
+            <br/><br>
+            <label for="lastname">Lastname:</label>
+            <input type="text" id="lastname" value="" placeholder="Enter Last Name" size="15" required>
+            <br/><br>
+            <label for="middlename">Middlename:</label>
+            <input type="text" id="middlename" value="" placeholder="Enter Middle Name" size="15" required>
+            <br/><br>
+            <label for="course">Course:</label>
+            <select value="" id="course" required>
+                <option name="" id="" selected>Course</option>
+                <option name="" id="">BCA</option>
+                <option name="" id="">MCA</option>
+                <option name="" id="">BBA</option>
+                <option name="" id="">B.Tech</option>
+                <option name="" id="">MCA</option>
+                <option name="" id="">M.Tech</option>
+            </select>
+            <br><br>
+            <label for="gen">Gender :</label><br>
+            <input type="radio" name="gen">Male
+            <br>
+            <input type="radio" name="gen">Female
+            <br>
+            <input type="radio" name="gen">Other
+            <br><br>
+            <label for="dob">DOB</label>
+            <input type="datetime-local" id="dob" required>
+            <br>
+            <label for="phone">Phone :</label>
+            <input type="text" name="country code" value="+91" disabled maxlength="10" size="2">
+            <input type="tel" id ="phone" required>
+            <br><br>
+            <label for="address" value="address">Address</label>
+            <br>
+            <textarea name="comment" id="" rows="5" cols="80"></textarea>
+            <br><br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="Password">Password: </label>
+            <input type="password" id="password" value="" required>
+            <br><br>
+            <label for="Password">Re-type password: </label>
+            <input type="password" id="password" value="" required>
+            <br><br>
+            <input type="checkbox" >Agree to terms and conditions
+            <br><br>
+            <label for="file">Choose File</label>
+            <input type="file" id="file">
+            <br><br>
+            <label for="color">Choose Color</label>
+            <input type="color">
+            <br><br>
+            <button type="reset" value="reset">Reset</button>
+            <button type="submit" value="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
